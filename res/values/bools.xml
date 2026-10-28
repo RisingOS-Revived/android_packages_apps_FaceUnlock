@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Enable for camera HALs that cannot safely tear down framework ZSL streams. -->
+    <bool name="config_cameraRecordingHint">false</bool>
     <bool name="config_suc_use_partner_resource">true</bool>
     <bool name="theme_is_light">true</bool>
 </resources>
